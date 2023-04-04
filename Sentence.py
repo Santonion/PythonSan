@@ -1,0 +1,8 @@
+word= input("sentence input: ")
+print(word)
+print(word.strip.count(" ") + 1)
+print("A", word.rfind("a") + 1)
+wurd = word.rfind(".")
+ward = (wurd+1)
+if ward == len(word) : print("slutar med en punkt")
+else : print("slutar inte med punkt")
